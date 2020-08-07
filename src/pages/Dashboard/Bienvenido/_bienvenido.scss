@@ -1,0 +1,25 @@
+.bienvenidos-wrapper {
+  margin:40px 0 0 35px;
+  width:55%;
+}
+
+.bienvenido-title, .bienvenidos-name {
+  font-size:$font-xlg;
+}
+
+.bienvenido-text {
+  display:inline-block;
+  margin:20px 0;
+  font-size:$font-md;
+}
+
+
+.bienvenido-button {
+  padding: 12px 39px;
+  background: $grey-dark;
+  border-radius: 50px;
+  color: #fff;
+  border: 0;
+  font-size:$font-sm;
+}
+

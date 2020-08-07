@@ -1,0 +1,32 @@
+.total-wrapper {
+  justify-content:space-between;
+  align-items: center;
+  padding:10px 40px;
+  border-bottom:1px solid #e8e8e8;
+}
+
+.generos-left-side {
+  width:50%;
+}
+.generos-right-side {
+  width:50%;
+  padding-top:62px;
+}
+
+.d-wrapper {
+  padding-top:21px;
+}
+
+.g-flex {
+  flex-direction: column;
+  text-align:center;
+  padding-top: 15px;
+}
+
+.genero-number {
+  font-size:26px;
+}
+
+.genero-label {
+  font-size:$font-xsm;
+}

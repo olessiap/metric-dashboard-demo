@@ -1,0 +1,51 @@
+.logins{
+  color:grey;
+  overflow:auto;
+}
+
+.login-item{
+  @extend .flex-space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #dedddd;
+  font-size:$font-sm;
+  align-items: center;
+}
+
+.login-icon {
+  width:42px;
+  height:42px;
+}
+
+.item-name{
+  width:75px;
+  font-size:$font-xsm;
+}
+
+.progress-bar {
+  width:200px;
+  height: 6px;
+  border-radius: 30px;
+  display:flex;
+  flex-direction: row !important;
+}
+
+.activeBar {
+  // width: 16%;
+  background: $blue-md;
+}
+
+.notActiveBar {
+  // width:84%;
+  background:grey;
+}
+
+.login-percent {
+  color: $blue-md;
+  font-size: 20px;
+  font-weight: 700;
+  width:50px;
+}
+
+.login-item:last-child {
+  border:none;
+}

@@ -1,0 +1,26 @@
+.monitoreo-wrapper {
+  display:grid;
+  grid-template-columns: 100%;
+  grid-template-rows:84%;
+  grid-template-areas: 
+    "monitoreo-table"
+    "footer";
+  width:91%;
+  position:absolute;
+  top:150px;
+  left:75px;
+}
+
+.monitoreo-table-wrapper {
+  grid-area: monitoreo-table;
+  background: #fff;
+  border-radius: 9px;
+  color: #000;
+  position: relative;
+}
+
+#footer {
+  grid-area:footer;
+  background:#1d2a36;
+  border-radius:0;
+}

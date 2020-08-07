@@ -1,0 +1,49 @@
+.up-time-item {
+  border-right: 1px solid #e2e2e2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+
+  &:last-child{
+    border-right:0;
+  }
+  h1 {
+    font-size:3rem;
+    color:$grey-dark;
+    font-family: HeeboLight;
+  }
+  
+  h2 {
+    font-size: .75rem;
+    font-family: HeeboBold;
+    color:$grey-md
+  }
+}
+
+.active-container {
+  border-radius: 35px;
+  background: #bbbbbb;
+  padding: .5em 10px;
+  display: flex;
+  align-items: center;
+  min-width: 155px;
+  max-width:160px;
+  font-weight: 600;
+}
+
+.activo {
+  width: 13px;
+  height: 13px;
+  background: green;
+  border-radius: 50%;
+  margin-left: 7px;
+}
+
+.inactivo {
+  width: 13px;
+  height: 13px;
+  background: red;
+  border-radius: 50%;
+  margin-left: 7px;
+}

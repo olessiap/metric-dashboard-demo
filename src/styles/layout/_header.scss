@@ -1,0 +1,55 @@
+.top-header {
+  // margin:0 20px 15px 0;
+  // border-bottom: 1px solid grey;
+  height: 90px;
+  color:white;
+}
+  
+.admin-logo {
+  height: 42px;
+  width: 42px;
+  float: left;
+  margin-top: 1em;
+  margin-right: 1em;
+  margin-left: 0.75em;
+}
+
+.header-name {
+  font-size:$font-xlg;
+}
+
+.last-update {
+  font-size:$font-sm;
+  width: 290px;
+  float: right;
+  padding-top: 4px;
+  font-weight: 800;
+}
+
+.header-separator {
+  // width: 92%;
+  // margin-left: 5%;
+  border-bottom: 1px solid grey;
+}
+
+.header-wrapper {
+  @extend .flex-space-between;
+  padding-top: 25px;
+}
+
+@media (min-width: 320px) and (max-width: 700px) {
+  .admin-logo {
+    height: 35px;
+    width:35px;
+  }
+  .customer-name {
+    font-size:$font-sm;
+  }
+  
+  .last-update {
+    font-size:8px;
+    width:134px;
+    padding-top:10px;
+  }
+
+}

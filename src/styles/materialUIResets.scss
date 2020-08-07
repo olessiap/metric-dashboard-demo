@@ -1,0 +1,73 @@
+.MTableToolbar-title-9 {
+  display:none !important;
+}
+
+.MuiInput-underline:before {
+  border-bottom:none !important;
+}
+
+.MuiInput-underline {
+  border-bottom:none !important;
+}
+
+.MuiInput-underline:after{
+  border-bottom:none !important;
+}
+
+.MuiToolbar-regular {
+  border: 0 !important;
+  background-color: $grey-search !important;
+  // font-size:20px !important;
+}
+
+// .MTableToolbar-searchField-10 {
+//   min-width:100% !important;
+//   padding-left:0 !important;
+// }
+
+.MuiToolbar-regular {
+  min-height:100px !important;
+  width:100% !important;
+}
+
+.MuiTableSortLabel-root {
+  color: #777777 !important;
+  font-family: HeeboMedium !important;
+}
+
+.MuiTableCell-paddingNone:last-child {
+  padding:30px !important;
+}
+
+.MuiTableCell-root {
+  font-size:1em !important;
+  height:79px !important;
+}
+.MuiPaper-elevation2 {
+  box-shadow:none !important;
+}
+
+.MuiTableCell-body {
+  padding:15px !important;
+}
+.MuiTableCell-head {
+  padding:20px 15px !important;
+}
+
+.MuiToolbar-gutters {
+  background-color: none !important;
+}
+
+.MuiTableRow-root{
+  font-size:12px;
+    &:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+    cursor:pointer;
+  } 
+}
+
+.MuiFormControl-root {
+  position: absolute !important;
+  width:150px !important;
+  // display:none !important;
+}

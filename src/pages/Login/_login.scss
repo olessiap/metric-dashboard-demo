@@ -1,0 +1,101 @@
+.login-main {
+  height:100%;
+  background:#fff;
+  display:flex;
+}
+.login-wrapperLeft {
+  background:#fff;
+  width:42%;
+  height:100%;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-contents {
+  width: 56%;
+
+  img {
+    margin-bottom: 40px;
+    width: 75px;
+    height: 75px;
+    float: none;
+    margin-left: -10px;
+  }
+  h2 {
+    color:$grey-dark;
+    font-size:30px;
+    font-weight: 900;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Heebo', sans-serif;
+    margin:0;
+  }
+
+  form {
+    margin-top: 40px;
+
+    button {
+      width: 80%;
+      padding: 12px;
+      background-color: #3dc3ff;
+      color: #fff;
+      font-weight: 700;
+      font-size:$font-xsm;
+      border: none;
+      border-radius:5px;
+      margin-top:17px;
+      overflow:hidden;
+
+      a {
+        text-decoration: none;
+        color:#fff;
+      }
+    }
+
+    input {
+      display: block;
+      padding: 10px;
+      width: 80%;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      box-shadow: none;
+      border: 1px solid #ccc9c9;
+      font-size: 15px;
+    }
+    ::placeholder {
+      font-size:15px;
+    }
+  } 
+  p {
+    color: $grey-dark;
+    font-weight: 400;
+    margin-top: 33px;
+    overflow:hidden;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+}
+
+.login-wrapperRight {
+  width:58%;
+  background-image:url("https://www.usnews.com/dims4/USNEWS/419c5b9/2147483647/crop/2000x1333%2B0%2B0/resize/1200x1200%3E/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2F99%2F24%2F718ddeb04f53a68e575e7b6d1f88%2F200428-stock.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  position:relative;
+}
+
+@media(max-width:683px) {
+  .login-wrapperLeft {
+    width:100%;
+  }
+
+  .login-wrapperRight {
+    display:none;
+  }
+}

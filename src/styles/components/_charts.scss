@@ -1,0 +1,52 @@
+///PERCENTAGES HELPER CSS ///
+
+.percent-item {
+  margin-bottom:20px;
+}
+
+.percent-title {
+  font-size:$font-xsm;
+  padding:4px 0  0 18px;
+}
+
+#nuevos {
+  background:$blue-md;
+}
+
+#recurrentes {
+  background: $blue-dark;
+}
+
+.circle-demo {
+  margin-left:16%;
+}
+
+.circle-spacing {
+  justify-content:space-around;
+  margin-top:25px;
+}
+
+// DOUGHNUT GRAPH
+
+.graphDWrapper {
+  position:relative;
+}
+
+.d-flex {
+  flex-direction: column;
+  align-items:center;
+  margin: 0;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+.inside-percent {
+  font-size: 50px;
+  color: black;
+ 
+}
+.inside-label {
+  font-size:$font-xsm;
+}

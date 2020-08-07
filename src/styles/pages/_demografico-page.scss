@@ -1,0 +1,61 @@
+.demografico-wrapper {
+  display:grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 145px 370px 480px 440px 440px 440px 370px;
+  grid-template-areas: 
+    "demo-stats"
+    "dayConnection"
+    "horarios"
+    "ultimosUsarios"
+    "generos"
+    "authenticatedAt"
+    "demoDispositivos"
+    "footer";
+  width: 91%;
+  position: absolute;
+  top: 150px;
+  left: 75px;
+  background:#fff;
+  border-radius: 9px 9px 0 0;
+}
+
+.demo-stats {
+  grid-area: demo-stats;
+  background:#fff;
+}
+
+.demoDayConnection {
+  grid-area: dayConnection;
+  color:#000;
+  background:#fff;
+}   
+
+.ultimosUsarios {
+  grid-area:ultimosUsarios;
+  color:#000;
+  background:#fff;
+}
+
+.generos {
+  grid-area:generos;
+  color:#000;
+  background:#fff;
+}
+
+.authenticatedAt {
+  grid-area: authenticatedAt;
+  color:#000;
+  background:#fff;
+}
+
+.demoDispositivos {
+  grid-area:demoDispositivos;
+  color:#000;
+  background:#fff;
+}
+
+#border-footer-wrapper {
+  grid-area:footer;
+  border-radius:0;
+  background-color:$grey-background;
+}

@@ -1,0 +1,147 @@
+.rdrDateRangePickerWrapper {
+  display: block;
+}
+.rdrDefinedRangesWrapper{
+  padding:10px;
+}
+
+.rdrStaticRanges {
+  display: flex;  
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.rdrInputRanges {
+  display: none;
+}
+
+.rdrDefinedRangesWrapper{
+  border:none;
+  width:100%;
+}
+
+.rdrStaticRange {
+  border: none;
+}
+
+
+.rdrWeekDays {
+  display:none;
+}
+
+.rdrDateDisplayWrapper {
+  background-color:#fff;
+}
+
+.rdrStaticRangeLabel {
+  font-weight:900;
+  text-align:center !important;
+}
+
+.rdrDateDisplayItem {
+  background-color:#f2f2f2;
+  border:none;
+  box-shadow: none; 
+}
+
+.rdrMonthAndYearPickers {
+  select {
+    background: none;
+    padding: 0;
+    color: #666666;
+    font-size:15px;
+    font-weight:bold;
+    text-align-last:center;
+  }
+}
+
+.rdrNextPrevButton {
+  background-color: #fff;
+}
+.rdrDateDisplayItem {
+  input {
+    color:#229fda;
+    font-weight:900;
+  }
+}
+
+.rdrDateDisplayItemActive {
+  input {
+    color:#229fda;
+  }
+}
+
+.rdrDayToday {
+  span {
+    &::after {
+      bottom: 2px !important;
+      width: 4px !important;
+      height: 4px !important;
+      border-radius: 2px !important;
+    }
+  }
+}
+
+.rdrDefinedRangesWrapper {
+  padding: 10px 10px 0;
+}
+.rdrMonthAndYearWrapper {
+  height:42px;
+  padding-top:0;
+}
+
+.rdrDateDisplayItem{
+  background-image: url('/icons/calendar-black.svg');
+  background-repeat:no-repeat;
+  background-position: left;
+  background-size: 15px;
+  background-origin: content-box;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.rdrDayDisabled {
+  background-color: none;
+}
+/// CUSTOM HIGHTLIGHTS ///
+
+//selected day circle
+// .rdrEndEdge {
+//   right:9px;
+// }
+
+// .rdrStartEdge {
+//   left:10px;
+// }
+
+// .rdrDayHovered, .rdrInRange {
+//   background-color: #e8f5fb;
+//   border:none;
+// }
+
+// .rdrDayHovered {
+//   border-top-right-radius: 1.042em;
+//   border-bottom-right-radius: 1.042em;
+//   border-top-left-radius: 1.042em;
+//   border-bottom-left-radius:1.042em;
+// }
+
+// .rdrStartEdge, .rdrEndEdge {
+//   background-color: #229fda;
+// }
+// .rdrStartEdge {
+//   border-top-right-radius: 1.042em;
+//   border-bottom-right-radius: 1.042em;
+// }
+
+// .rdrEndEdge {
+//   border-top-left-radius: 1.042em;
+//   border-bottom-left-radius:1.042em;
+// }
+
+// .rdrDay:not(.rdrDayPassive) .rdrInRange ~ .rdrDayNumber span{
+//   color:#229fda;
+// }

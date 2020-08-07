@@ -1,0 +1,144 @@
+.router-header {
+  @extend .flex-space-between;
+  padding:20px 15px;
+}
+
+
+.aplicar-button {
+  background: $blue-md;
+  width: 100%;
+  height: 45px;
+  color: #fff;
+  font-size: $font-xsm;
+  font-weight: 600;
+  border: none;
+  position: absolute;
+  bottom:0;
+  border-radius: 0 0 10px 10px;
+}
+
+.reset-button {
+  border: none;
+  color: $blue-md;
+  background: none;
+  font-size: $font-xsm;
+}
+
+.router-icon {
+  height: 14px;
+  padding-right: 7px;
+}
+
+.router-number-wrapper {
+  p {
+  font-size:$font-sm;
+  }
+}
+
+.router-search {
+  padding-left: 15px;
+  background:$grey-search;
+} 
+
+.showMoreRouters {
+  padding: 10px 15px;
+}
+
+.router-form {
+  margin-top: 0;
+  // height:420px;
+  overflow:auto;
+}
+
+.router-form::-webkit-scrollbar {
+  display: none;
+}
+
+////REACT CHECKBOX TREE ////
+
+.rct-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  button {
+    order: 5;
+  }
+}
+
+.rct-node-expanded {
+  ol {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+}
+.rct-node-leaf {
+  .rct-collapse {
+    display:none;
+  }
+}
+.rct-node-icon {
+  display: none;
+}
+
+.react-checkbox-tree {
+  font-size:12px;
+
+  li {
+    padding: 15px 5px 0 15px;
+  }
+  ol ol {
+    padding-left:5px;
+  }
+}
+
+.rct-node-parent:last-of-type {
+  margin-bottom:60px;
+}
+
+.rct-node-collapsed > {
+  .rct-collapse-btn {
+    display:none;
+  }
+}
+
+///library icon weirdness from May 8th,2020
+
+.react-checkbox-tree:not(.rct-native-display) input {
+  display: initial;
+}
+
+.rct-icons-fa4 .rct-icon-uncheck::before {
+  content: initial;
+}
+
+.rct-checkbox {
+  display: none;
+}
+
+.rct-title{
+  padding:0 15px;
+}
+
+.rct-icon-expand-close::before {
+  content: "\f0da";
+}
+
+.rct-icon-expand-open::before {
+  content: "\f0d7";
+}
+
+
+.react-checkbox-tree label {
+  display:flex;
+  align-items:center;
+}
+
+.react-checkbox-tree {
+  label {
+    &:hover{
+      background:none;
+    }
+  }
+}

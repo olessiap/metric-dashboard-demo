@@ -1,0 +1,101 @@
+.dashboard-wrapper {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: fit-content(40%);
+  grid-template-rows: 300px 150px 345px 480px 320px 345px 150px;
+  grid-template-areas:
+    "bienvenidos connectionsPerDate"
+    "stats stats"
+    "map map"
+    "horarios horarios"
+    "dayConnection dayConnection"
+    "logins dispositivos"
+    "footer footer";
+  width: 91%;
+  position: absolute;
+  top: 150px;
+  left: 75px;
+  color: $grey-dark;
+
+}
+
+.bienvenidos {
+  grid-area: bienvenidos;
+  background: #2277da;
+  color: white;
+}
+
+.connectionsPerDate {
+  grid-area: connectionsPerDate;
+  background-color: white;
+  // margin-left: -20px;
+}
+
+.stats {
+  grid-area: stats;
+  background:#fff;
+  display:flex;
+}
+
+.map {
+  grid-area: map;
+}
+
+.horarios {
+  grid-area: horarios;
+  background: #fff;
+}
+
+.dayConnection {
+  grid-area: dayConnection;
+  background: #fff;
+}
+
+.logins {
+  grid-area: logins;
+  background: #fff;
+}
+
+.dispositivos {
+  grid-area: dispositivos;
+  background: #fff;
+}
+
+.footer {
+  grid-area: footer;
+  @extend .flex-space-between;
+  padding-top: 70px;
+}
+
+@media (min-width: 1006px) {
+  .dashboard-wrapper {
+    width: 92%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 700px) {
+  .dashboard-wrapper {
+    grid-template-columns: 90%;
+    grid-template-rows: 0 280px 300px 300px 465px 305px 305px 305px;
+    grid-gap: 15px;
+    grid-template-areas:
+      "header"
+      "bienvenidos"
+      "connectionsPerDate"
+      "map"
+      "horarios"
+      "dayConnection"
+      "logins"
+      "dispositivos"
+      "sidebar"
+      "sidebar2"
+      "footer";
+  }
+  .map-side {
+    width:100% !important;
+  }
+
+  .hour-connection-side {
+    display:none;
+  }
+}

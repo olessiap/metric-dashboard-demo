@@ -1,0 +1,35 @@
+.user-wrapper {
+  height:100%;
+}
+
+.usarios-item {
+  align-items: center;
+  padding:15px 40px;
+  border-bottom:1px solid #f3f3f3;
+}
+
+.ultimos-usarios-container {
+  width:50%;
+  height:100%;
+  border-right:1px solid #f3f3f3;
+}
+
+.user-icon {
+  padding-right:20px;
+  height:50px;
+}
+
+.user-details {
+  flex-direction:column;
+}
+
+.user-info {
+  font-size:$font-xsm;
+}
+
+.ultimos-users-graph {
+  width:50%;
+  margin:50px 30px;
+  justify-content: space-around;
+}
+

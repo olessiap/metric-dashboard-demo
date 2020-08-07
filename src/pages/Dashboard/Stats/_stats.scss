@@ -1,0 +1,37 @@
+.stats-wrapper {
+  width: 50%;
+  margin: 20px 115px;
+}
+
+#stats-border {
+  border-right: 1px solid gray;
+  height: 70%;
+  margin: auto 0;
+}
+
+.stats-title{
+  text-align:center;
+  font-family:roboto;
+  margin-bottom: 5px;
+  color:#797b7e;
+}
+
+.stats {
+  h1 {
+    text-align: center;
+    font-weight:200;
+  }
+}
+.stats-data {
+  display:flex;
+  flex-direction: column;
+  width: 50%;
+  float: left;
+}
+
+.stats-subtitle {
+  text-align:center;
+  font-size:$font-sm;
+  font-family:roboto;
+  color:#999999;
+}

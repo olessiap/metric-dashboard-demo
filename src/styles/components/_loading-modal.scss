@@ -1,0 +1,38 @@
+.loading-wrapper {
+  width: 100%;
+  height:100%;
+  
+  .gif-wrapper {
+    width:260px;
+    margin:0 auto;
+  }
+
+  img {
+    height:256px !important;
+  }
+
+  .loading-title {
+    display:flex;
+    flex-direction: column;
+    margin-top: -50px;
+  } 
+
+  h3 {
+    margin: 0 auto;
+    font-size: 17px;
+    font-family: 'Heebo', sans-serif;
+    color:$grey-dark;
+  }
+
+  button {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background: #3dc3ff;
+    height: 50px;
+    font-size: 12px;
+    font-weight: 900;
+    border:none;
+  }
+}

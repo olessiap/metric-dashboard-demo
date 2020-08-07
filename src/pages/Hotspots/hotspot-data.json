@@ -1,0 +1,11 @@
+{
+  "data": [
+    {"id":1, "hotspot":"3Dragones", "ubicacion":"Bernal", "sector":"Todo", "estado":"Histórico", "contacto":"", "telefono":"", "serial":"1234567890", "modo":"Franquicia", "GMT":"-3", "whitelist":"Admin"  },
+    {"id":2, "hotspot":"7-ELEVEN Meraki", "ubicacion":"Monterrey", "sector":"Oficina Naranya", "estado":"Disponible", "contacto":"", "telefono":"", "serial":"e0:55:3d:be:53:f0", "modo":"Franquicia", "GMT":"-6", "whitelist":"Admin"  },
+    {"id":3, "hotspot":"Acacia Cafetería", "ubicacion":"Monterrey", "sector":"Oficina Naranya", "estado":"Disponible", "contacto":"", "telefono":"", "serial":"e0:55:3d:be:53:f0", "modo":"Franquicia", "GMT":"-6", "whitelist":"Admin"  },
+    {"id":4, "hotspot":"Admin", "ubicacion":"Admin", "sector":"Oficina Naranya", "estado":"Quemado", "contacto":"", "telefono":"", "serial":"6616056B6859", "modo":"Franquicia", "GMT":"-6", "whitelist":"Admin"  },
+    {"id":5, "hotspot":"Acacia", "ubicacion":"Colegiales", "sector":"Oficina Naranya", "estado":"Disponible", "contacto":"", "telefono":"", "serial":"643305D16228", "modo":"Franquicia", "GMT":"-3", "whitelist":"Admin"  },
+    {"id":6, "hotspot":"Cafetería", "ubicacion":"Alberdi 431", "sector":"Todo", "estado":"Disponible", "contacto":"", "telefono":"", "serial":"661604439042", "modo":"Franquicia", "GMT":"-3", "whitelist":"Admin"  },
+    {"id":7, "hotspot":"Microcentro", "ubicacion":"Monterrey", "sector":"Oficina Naranya", "estado":"Disponible", "contacto":"", "telefono":"", "serial":"e0:55:3d:be:53:f0", "modo":"Franquicia", "GMT":"-6", "whitelist":"Admin"  }
+  ]
+}

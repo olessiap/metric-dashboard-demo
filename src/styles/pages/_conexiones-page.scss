@@ -1,0 +1,20 @@
+.conexiones-wrapper {
+  display:grid;
+  grid-template-columns: 100%;
+  grid-template-rows:100%;
+  grid-template-areas: 
+    "conexiones-table"
+    "footer";
+  width:91%;
+  position:absolute;
+  top:150px;
+  left:75px;
+}
+
+.conexiones-table-wrapper {
+  grid-area: conexiones-table;
+  background: #fff;
+  border-radius: 9px;
+  color:#000;
+  position: relative;
+}

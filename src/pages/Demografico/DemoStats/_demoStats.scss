@@ -1,0 +1,49 @@
+.demo-stats {
+  display:flex;
+  color:#000;
+  border-top-left-radius: 20px;
+  border-top-right-radius:20px;
+}
+.stat-title {
+  text-align: center;
+  padding: 20px 0;
+  font-size: $font-sm;
+  color:$grey-md;
+  font-family: HeeboBold;
+}
+.stat-third-container {
+  width:25%;
+  height:100%;
+  position: relative;
+  border-right: 1px solid #eaeaea;
+}
+
+.stat-third-container:last-child {
+  border-right:none;
+}
+
+.stat-half-container {
+  width:50%;
+  border-right: 1px solid #eaeaea;
+}
+
+.stat-third-center {
+  display:flex;
+  justify-content: space-around;
+  
+}
+
+.stat-wrapper {
+  display:flex;
+  flex-direction: column;
+}
+
+.stat-value {
+  text-align:center;
+  font-size:25px;
+  font-weight:900;
+}
+.demo-stat-footer {
+  font-size:$font-xsm;
+  text-align:center;
+}

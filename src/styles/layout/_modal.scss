@@ -1,0 +1,70 @@
+.modal-dialog {
+  position:absolute;
+  top:57px;
+  right: 15px;
+  border-radius: 10px;
+  color:#000;
+  overflow-y:auto;
+  background-color: white;
+  width: 335px;
+  height: 545px;
+}
+
+.loadingModalLogin {
+  border-radius: 10px;
+  color:#000;
+  overflow-y:auto;
+  background-color: white;
+  width:330px;
+  height:330px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+
+  margin: 0 auto;
+}
+
+.loadingModalDashboard{
+  border-radius: 10px;
+  overflow-y: auto;
+  background-color: white;
+  width: 330px;
+  height: 330px;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  margin: 0 auto;
+}
+.modal-content {
+  border: none;
+  height:100%;
+}
+
+.calendar-modal {
+  @extend .modal-dialog;
+  background-color: white;
+  width: 333px;
+  height: 400px;
+  right: 235px;
+}
+
+@media(max-width:683px) {
+  .loadingModalLogin {
+    position:sticky;
+    top:25%;
+    left:initial;
+    margin:0 auto;
+  }
+}
+
+
+.Router-Modal::-webkit-scrollbar .Calendar-Modal::-webkit-scrollbar {
+  display: none;
+}
+
+
+@media (min-width: 576px){
+  .loadFetch {
+    margin:0 auto;
+  }
+}

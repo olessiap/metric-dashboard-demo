@@ -1,0 +1,32 @@
+.left-side {
+  width:15%;
+  margin:50px 40px;
+}
+
+#email {
+  background:#afeeee;
+}
+
+#facebook {
+  background:$color-fb;
+}
+
+#twitter {
+  background:$color-twitter;
+}
+
+#linkedin {
+  background:$color-linkedIn;
+}
+
+#otro {
+  background:$color-otro;
+}
+
+.auth-wrapper {
+  margin: auto 0;
+}
+.right-side {
+  padding:40px;
+  width:100%;
+}

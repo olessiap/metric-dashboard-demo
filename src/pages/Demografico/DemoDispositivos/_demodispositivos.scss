@@ -1,0 +1,41 @@
+.dispositivos-wrapper {
+  justify-content: space-between;
+}
+
+.dispo-item-wrapper {
+  justify-content: space-between;
+  width:100%;
+  padding: 30px 30px;
+}
+
+.dispo-title {
+  margin-bottom:30px;  
+}
+
+.dispo-markers {
+  margin-bottom:6px;
+}
+
+.dispo-graph {
+  padding-top:25px;
+}
+
+#dot-one {
+  background:#afeeee;
+}
+
+#dot-two {
+  background:#b0e0e6;
+}
+
+#dot-three {
+  background:#0000ff;
+}
+
+#dot-four {
+  background:#000;
+}
+
+#dot-five {
+  background:#808080;
+}

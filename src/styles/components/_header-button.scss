@@ -1,0 +1,44 @@
+.menu-button-wrapper {
+  @extend .flex-center;
+
+  padding: 1px 11px;
+  justify-content:center;
+}
+
+.menu-button {
+  border: 1px solid grey;
+  border-radius: 30px;
+  height: 30px;
+  margin-right:10px;
+
+  img {
+    height:26px;
+    margin-right:5px;
+  }
+
+  p {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+#cal-button {
+  @extend .menu-button;
+  width:200px;
+}
+
+#cal-button, .router-button {
+  cursor: pointer;
+}
+
+.router-button {
+  @extend .menu-button;
+  width:135px;
+  text-align:center;
+  font-size:$font-xsm;
+}
+
+.pdf-button {
+  @extend .menu-button;
+  width:130px;
+}

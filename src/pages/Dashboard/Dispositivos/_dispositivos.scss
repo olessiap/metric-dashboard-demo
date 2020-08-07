@@ -1,0 +1,54 @@
+.dispositivos {
+  color:grey;
+  overflow:hidden;
+}
+
+.dispositivos:hover {
+  overflow:auto;
+}
+.device-side {
+  width:45%
+}
+
+.graph-side {
+  width:65%;
+  margin-top: 27px;
+}
+
+.device-item {
+  display:flex;
+  align-items: baseline;
+  padding: 20px 0;
+  border-bottom: 1px solid #dedddd;
+  font-size:$font-sm;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 50px;
+}
+
+#Smartphone {
+  background: #85d0f3;
+}
+
+#Tablet {
+  background:#0a519f;
+}
+
+#Pc {
+  background:$blue-dark;
+}
+
+#Desktop {
+  background: #229fda;
+}
+
+#Otro {
+  background:$grey-md;
+}
+
+.device-item:last-child{
+  border:none;
+}

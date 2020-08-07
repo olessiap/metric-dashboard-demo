@@ -1,0 +1,56 @@
+@import "~bootstrap/scss/bootstrap";
+@import "node_modules/react-checkbox-tree/src/scss/react-checkbox-tree.scss";
+
+@import "./variables";
+@import "./elements";
+@import "./resets";
+@import "./reusuable";
+@import "./materialUIResets.scss";
+
+/////// LOGIN COMPONENT ///////
+@import "../pages/Login/login";
+
+/////// LAYOUT ///////
+@import "./layout/box-layout";
+@import "./layout/header";
+@import "./layout/sidebar";
+@import "./layout/footer";
+@import "./layout/modal";
+
+/////// STAND ALONE COMPONENTS ///////
+@import "./components/calendar";
+@import "./components/charts";
+@import "./components/header-button";
+@import "./components/react-table";
+@import "./components/routers";
+@import "./components/loading-modal";
+
+
+/////// PAGES ///////
+@import "./pages/dashboard-page";
+@import "./pages/conexiones-page";
+@import "./pages/demografico-page";
+@import "./pages/monitoreo-page";
+@import "./pages/campaigns-page";
+
+
+/////MAIN DASHBOARD PAGE COMPONENT BOXES /////
+@import "../pages/Dashboard/Bienvenido/Bienvenido";
+@import "../pages/Dashboard/Dispositivos/dispositivos";
+@import "../pages/Dashboard/Horarios/horarios";
+@import "../pages/Dashboard/Logins/logins";
+@import "../pages/Dashboard/Map/map";
+@import "../pages/Dashboard/Stats/stats";
+
+/////DEMOGRAPHICO PAGE COMPONENT BOXES /////
+@import "../pages/Demografico/AuthenticatedAt/authenticated";
+@import "../pages/Demografico/DemoDispositivos/demodispositivos";
+@import "../pages/Demografico/DemoStats/demoStats";
+@import "../pages/Demografico/Generos/generos";
+@import "../pages/Demografico/UltimosUsarios/ultimosUsarios";
+
+/////CONNEXIONES COMPONENT BOXES /////
+
+/////MONITOREO COMPONENT BOXES /////
+@import "../pages/Monitoreo/Monitoreo";
+

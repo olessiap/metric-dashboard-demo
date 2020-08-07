@@ -1,0 +1,42 @@
+------
+LOGIN
+------
+login call returns a list of RoutersInfo with all Groups and their router Children saved in globalData.loginData
+defaultRoutersChecked & defaultRoutersIds are set up in Reducer globalData and localStorage 
+login data calls globalData.defaultRoutersIds
+
+---------
+DASHBOARD
+---------
+on load gets all filters from localStorage
+on each render makes a data call with filters from storage
+realtime Map is called with LS router ids after data call - saved in globalData.markerData
+dates get saved in LS on each change
+
+-----------
+RouterModal
+-----------
+on each render boxes get created with CREATE_ROUTER_NODES dispatch
+component state keeps track of checked boxes
+when checked state changes, lS checkedRouters & checkedRouterIds gets updated as well 
+on applicar - data & map call with LS routerIds
+
+---------
+API CALLS
+---------
+/authenticate - username/password
+
+/Dashboard/Data 
+  -in LoginFrom with default OR LS filters
+  -in Dashboard with LS filters
+  -in RouterModal with LS routerIds and globalData.dateRanges
+  -in Calendar with LS routerIds and globalData.dateRanges
+
+/Dashboard/RealTimeMap 
+  -in Dashboard on LastUpdate change (should be every minute)
+  -in RouterModal after data call 
+
+//TODO
+  Monitoreo - hightlight selected row as highlight blue
+  Loading Skeleton for each box
+  loading gif while fetching
